@@ -17,4 +17,4 @@ print('The accuracy of the Decision Tree is',"{:.3f}".format(metrics.accuracy_sc
 import pickle
 import joblib
 
-joblib.dump(mod_dt, "artifacts/model.joblib")
+joblib.dump(mod_dt, "model.joblib")
